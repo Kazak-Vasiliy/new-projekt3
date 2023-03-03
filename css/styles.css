@@ -20,13 +20,28 @@ body {
     text-align: center;
     line-height: 1.16;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .link{
     text-decoration: none;
     color: inherit;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid teal;
+}
+.padding{
+    padding: 94px 0;
 }
 /* ==============HEDER ==================*/
 .logo{
@@ -59,13 +74,20 @@ body {
     color: var(--akcent-color);
 }
 /* ==============SECTION HERO============== */
+.hero-background .container{
+    padding: 200px 0;
+    text-align: center;
+}
+.container > .hero-title{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
 .hero-title{
     font-weight: 900;
     font-size: 44px;
     letter-spacing: 0.06em;
     line-height: 1.36;
     color: #2196F3;
-    text-align: center;
     text-transform: uppercase;
 }
 .hero-btn{
@@ -78,8 +100,17 @@ body {
     background-color: var(--akcent-color);
     cursor: pointer;
     font-family: inherit;
+    display: inline-block;
 }
 /* ==============SECTION PROPERTIES=============== */
+.properties  .properties-title{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.properties  .properties-text{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .properties-title{
     font-weight: 700;
     font-size: 14px;
@@ -93,9 +124,16 @@ body {
     line-height: 1.71;
     color: var(--secod-color);
 }
+/* ================SECTION WORK=================== */
+.work{
+    padding-bottom: 94px;
+}
 /* ===============SECTION TEAM==================== */
 .team{
     background-color: var(--section-background);
+}
+.team .container{
+    padding: 94px 0;
 }
 .team-item{
     background-color: var(--white-color);
@@ -115,6 +153,9 @@ body {
     color: var(--secod-color);
 }
 /* ==================FOOTER===================== */
+.footer .container{
+    padding: 60px 0;
+}
 .footer{
     color: var(--white-color);
     background-color: var(--footer-background);
