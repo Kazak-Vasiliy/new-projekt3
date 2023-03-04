@@ -34,14 +34,15 @@ body {
 }
 .container{
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: 0 auto;
+    padding: 0 15px;
     outline: 2px solid teal;
 }
-.padding{
+.section{
     padding: 94px 0;
+}
+.section.padding{
+    padding-bottom: 0;
 }
 /* ==============HEDER ==================*/
 .logo{
@@ -74,13 +75,9 @@ body {
     color: var(--akcent-color);
 }
 /* ==============SECTION HERO============== */
-.hero-background .container{
-    padding: 200px 0;
+.hero-background{
+   padding: 200px 0;
     text-align: center;
-}
-.container > .hero-title{
-    margin-top: 0;
-    margin-bottom: 30px;
 }
 .hero-title{
     font-weight: 900;
@@ -89,6 +86,8 @@ body {
     line-height: 1.36;
     color: #2196F3;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 .hero-btn{
     font-weight: 700;
@@ -106,37 +105,27 @@ body {
     padding: 10px 32px;
 }
 /* ==============SECTION PROPERTIES=============== */
-.properties  .properties-title{
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.properties  .properties-text{
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 .properties-title{
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.14;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 .properties-text{
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 1.71;
     color: var(--secod-color);
-}
-/* ================SECTION WORK=================== */
-.work{
-    padding-bottom: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 /* ===============SECTION TEAM==================== */
 .team{
     background-color: var(--section-background);
-}
-.team .container{
-    padding: 94px 0;
 }
 .team-item{
     background-color: var(--white-color);
@@ -147,6 +136,8 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     line-height: 1.18;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 .team-text{
     font-size: 16px;
@@ -154,14 +145,14 @@ body {
     letter-spacing: 0.03em;
     line-height: 1.18;
     color: var(--secod-color);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 /* ==================FOOTER===================== */
-.footer .container{
-    padding: 60px 0;
-}
 .footer{
     color: var(--white-color);
     background-color: var(--footer-background);
+    padding: 60px 0;
 }
 .addres-list .link{
     font-size: 14px;
@@ -186,6 +177,8 @@ body {
     letter-spacing: 0.03em;
     cursor: pointer;
     font-family: inherit;
+    border: 0 solid transparent;
+    border-radius: 4px;
     display: inline-block;
     padding: 6px 22px;
     background-color: var(--section-background);
@@ -201,6 +194,8 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 4px;
 }
 .card-text{
     font-weight: 400;
@@ -208,4 +203,6 @@ body {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--secod-color);
+    margin-top: 0;
+    margin-bottom: 0;
 }
